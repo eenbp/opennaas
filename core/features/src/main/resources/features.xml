@@ -140,6 +140,12 @@
 		
 	</feature>
 
+          <feature name="opennaas-marketplace" version="${project.version}">
+		<feature version="${project.version}">opennaas-cim</feature>
+
+		<bundle>mvn:org.opennaas/org.opennaas.extensions.marketplace/${project.version}</bundle>
+		
+	</feature>
 	<feature name="opennaas-autobahn" version="${project.version}">
 		<feature>cxf</feature>
 		<feature version="${project.version}">opennaas-bod</feature>
